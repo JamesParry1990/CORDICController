@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "M:/CENG 441/CORDICController/ControllerTB_isim_beh.exe" -prj "M:/CENG 441/CORDICController/ControllerTB_beh.prj" "work.ControllerTB" 

@@ -1,0 +1,13 @@
+[Inputs]
+wr_enable
+rd_enable
+clk
+rst
+=wr_data0[31:0]=
+=wr_data1[31:0]=
+=wr_data2[31:0]=
+[Outputs]
+=rd_data0[31:0]=
+=rd_data1[31:0]=
+=rd_data2[31:0]=
+[BiDir]

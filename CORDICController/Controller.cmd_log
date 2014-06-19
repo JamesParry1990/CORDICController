@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+netgen -intstyle ise -ar Structure -tm Controller -w -dir netgen/synthesis -ofmt vhdl -sim Controller.ngc Controller_synthesis.vhd 
+vhdtdtfi -lib work Controller.vhd -prj CORDICController -o Controller.spl -module Controller -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Controller.spl {M:/CENG 441/CORDICController/Controller.sym} 
+xst -intstyle ise -ifn "M:/CENG 441/CORDICController/Controller.xst" -ofn "M:/CENG 441/CORDICController/Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Controller.ngc" Controller.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Controller_map.ncd Controller.ngd Controller.pcf 
+par -w -intstyle ise -ol high -t 1 Controller_map.ncd Controller.ncd Controller.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controller.twx Controller.ncd -o Controller.twr Controller.pcf 
+vhdtdtfi -lib work Controller.vhd -prj CORDICController -o Controller.spl -module Controller -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Controller.spl {M:/CENG 441/CORDICController/Controller.sym} 
+vhdtdtfi -lib work Controller.vhd -prj CORDICController -o Controller.spl -module Controller -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Controller.spl C:/Users/jdparry/Documents/CORDICController/CORDICController/Controller.sym 

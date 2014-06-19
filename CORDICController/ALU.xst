@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/jdparry/Documents/CORDICController/CORDICController/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/jdparry/Documents/CORDICController/CORDICController/xst"
+elaborate
+-ifn ALU.prj
+-ifmt mixed

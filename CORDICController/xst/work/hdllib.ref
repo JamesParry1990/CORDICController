@@ -1,0 +1,12 @@
+AR memory cfg C:/Users/jdparry/Downloads/Memory.vhd sub00/vhpl04 1403202559
+AR alu behavioral C:/Users/jdparry/Downloads/ALU.vhd sub00/vhpl08 1403203569
+AR register_file behavioural C:/Users/jdparry/Downloads/Register.vhd sub00/vhpl06 1403203298
+AR comparator behavioral C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd sub00/vhpl10 1403204244
+EN binmem NULL C:/Users/jdparry/Downloads/bin_mem.vhd sub00/vhpl11 1403205161
+EN memory NULL C:/Users/jdparry/Downloads/Memory.vhd sub00/vhpl03 1403202558
+AR controller behavioral "//samba.engr.uvic.ca/home/kloftis/CENG 441/CORDICController/Controller.vhd" sub00/vhpl01 1402960692
+EN register_file NULL C:/Users/jdparry/Downloads/Register.vhd sub00/vhpl05 1403203297
+PH prog_mem NULL C:/Users/jdparry/Downloads/Memory.vhd sub00/vhpl02 1403202557
+EN controller NULL "//samba.engr.uvic.ca/home/kloftis/CENG 441/CORDICController/Controller.vhd" sub00/vhpl00 1402960691
+EN comparator NULL C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd sub00/vhpl09 1403204243
+EN alu NULL C:/Users/jdparry/Downloads/ALU.vhd sub00/vhpl07 1403203568

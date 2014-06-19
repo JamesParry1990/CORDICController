@@ -1,0 +1,39 @@
+V3 19
+FL "//samba.engr.uvic.ca/home/kloftis/CENG 441/CORDICController/Controller.vhd" 2014/06/11.13:25:29 O.87xd
+EN work/Controller 1402960691 \
+      FL "//samba.engr.uvic.ca/home/kloftis/CENG 441/CORDICController/Controller.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
+AR work/Controller/Behavioral 1402960692 \
+      FL "//samba.engr.uvic.ca/home/kloftis/CENG 441/CORDICController/Controller.vhd" \
+      EN work/Controller 1402960691
+FL C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd 2014/06/19.11:57:14 O.87xd
+EN work/Comparator 1403204243 \
+      FL C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/Comparator/Behavioral 1403204244 \
+      FL C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.vhd \
+      EN work/Comparator 1403204243
+FL C:/Users/jdparry/Downloads/ALU.vhd 2014/06/19.11:45:37 O.87xd
+EN work/ALU 1403203568 FL C:/Users/jdparry/Downloads/ALU.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/ALU/Behavioral 1403203569 \
+      FL C:/Users/jdparry/Downloads/ALU.vhd EN work/ALU 1403203568
+EN work/BinMem 0 FL C:/Users/jdparry/Downloads/bin_mem.vhd PB ieee/std_logic_1164 1325952872 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/BinMem/Behavioral 0 \
+      FL C:/Users/jdparry/Downloads/bin_mem.vhd EN work/BinMem 0
+FL C:/Users/jdparry/Downloads/Memory.vhd 2014/06/19.11:28:38 O.87xd
+PH work/prog_mem 1403202557 FL C:/Users/jdparry/Downloads/Memory.vhd \
+      PB ieee/std_logic_1164 1325952872
+EN work/Memory 1403202558 \
+      FL C:/Users/jdparry/Downloads/Memory.vhd PB ieee/std_logic_1164 1325952872 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 PH work/prog_mem 1403202557
+AR work/Memory/CFG 1403202559 \
+      FL C:/Users/jdparry/Downloads/Memory.vhd EN work/Memory 1403202558
+FL C:/Users/jdparry/Downloads/Register.vhd 2014/06/19.11:41:36 O.87xd
+EN work/register_file 1403203297 FL C:/Users/jdparry/Downloads/Register.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875
+AR work/register_file/behavioural 1403203298 \
+      FL C:/Users/jdparry/Downloads/Register.vhd EN work/register_file 1403203297

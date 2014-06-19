@@ -1,0 +1,10 @@
+add instance Controller 1120 1264 R0 -sn=1
+add autowire 1504 976 2032 992 8 -sn=1
+add autowire 1504 1040 1680 976 8 -sn=1
+select figure at 1683 1028 8 -branches -sn=1
+select figure at 1991 1272 8 -wires -sn=1
+select figure at 1612 1041 8 -wires -sn=1
+select figure at 1683 1041 8 -wires -sn=1
+delete selection -sn=1
+select figure at 1950 981 8 -branches -sn=1
+delete selection -sn=1

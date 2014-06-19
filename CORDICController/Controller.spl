@@ -1,0 +1,13 @@
+[Inputs]
+start
+done
+rst
+clk
+=code[3:0]=
+[Outputs]
+t
+op
+load
+=m[1:0]=
+=i[3:0]=
+[BiDir]

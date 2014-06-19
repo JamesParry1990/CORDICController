@@ -1,0 +1,10 @@
+[Inputs]
+clk
+OperationSelect
+=Zi[31:0]=
+=Z0[31:0]=
+=Yi[31:0]=
+=Y0[31:0]=
+[Outputs]
+Output
+[BiDir]

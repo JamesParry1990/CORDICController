@@ -1,0 +1,6 @@
+vhdtdtfi -lib work Comparator.vhd -prj CORDICController -o Comparator.spl -module Comparator -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Comparator.spl C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.sym 
+vhdtdtfi -lib work Comparator.vhd -prj CORDICController -o Comparator.spl -module Comparator -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Comparator.spl C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.sym 
+vhdtdtfi -lib work Comparator.vhd -prj CORDICController -o Comparator.spl -module Comparator -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Comparator.spl C:/Users/jdparry/Documents/CORDICController/CORDICController/Comparator.sym 
